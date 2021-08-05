@@ -1,9 +1,9 @@
 ---
 main_screen_posts:
   post_1:
-    title: ''
-    url: ''
-    author: ''
+    title: The 4 Steps to Bringing Life to a Struggling Project
+    url: https://jtway.co/the-4-steps-to-bringing-life-to-a-struggling-project-37a53bf9c7dc
+    author: Paul Keen
     image: ''
     datePublished: ''
     publisher:
@@ -11,9 +11,9 @@ main_screen_posts:
       url: ''
     mainEntityOfPage: ''
   post_2:
-    title: ''
-    url: ''
-    author: ''
+    title: How to Get Remote Teams to High Perform
+    url: https://jtway.co/how-to-get-remote-teams-to-high-perform-b9b29d698feb
+    author: Paul Keen
     image: ''
     datePublished: ''
     publisher:
@@ -21,9 +21,9 @@ main_screen_posts:
       url: ''
     mainEntityOfPage: ''
   post_3:
-    title: ''
-    url: ''
-    author: ''
+    title: Inexpensive is Not Cheap
+    url: https://jtway.co/inexpensive-is-not-cheap-choosing-software-development-company-for-your-project-da97b7d9b3c0
+    author: Paul Keen
     image: ''
     datePublished: ''
     publisher:
