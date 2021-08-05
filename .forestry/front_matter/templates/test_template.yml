@@ -42,3 +42,13 @@ fields:
   - type: textarea
     name: description
     label: description
+- name: test_field
+  type: field_group
+  config: {}
+  fields:
+  - name: field
+    type: text
+    config:
+      required: false
+    label: field
+  label: test_field
