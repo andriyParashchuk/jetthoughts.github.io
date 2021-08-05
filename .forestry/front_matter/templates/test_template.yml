@@ -51,6 +51,16 @@ fields:
     config:
       required: false
     label: field
+  - name: d
+    type: field_group
+    config: {}
+    fields:
+    - name: e
+      type: text
+      config:
+        required: false
+      label: e
+    label: d
   label: test_field
 pages:
 - _data/new_page.html
