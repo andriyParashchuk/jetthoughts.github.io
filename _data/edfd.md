@@ -10,7 +10,7 @@ open_apply:
   desc: ''
   url: ''
 mobile_coach:
-  title: ''
+  title: gfgfgf
   scope: ''
   desc: ''
   url: ''
