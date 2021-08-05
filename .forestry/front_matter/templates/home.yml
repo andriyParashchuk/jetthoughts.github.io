@@ -1,0 +1,492 @@
+---
+label: home
+hide_body: true
+fields:
+- type: field_group
+  name: main_screen_posts
+  label: main_screen_posts
+  fields:
+  - type: field_group
+    name: post_1
+    label: post_1
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+  - type: field_group
+    name: post_2
+    label: post_2
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+  - type: field_group
+    name: post_3
+    label: post_3
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+- type: field_group
+  name: posts
+  label: posts
+  fields:
+  - type: field_group
+    name: post_1
+    label: post_1
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+  - type: field_group
+    name: post_2
+    label: post_2
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+  - type: field_group
+    name: post_3
+    label: post_3
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+  - type: field_group
+    name: post_4
+    label: post_4
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+  - type: field_group
+    name: post_5
+    label: post_5
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+  - type: field_group
+    name: post_6
+    label: post_6
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+  - type: field_group
+    name: post_7
+    label: post_7
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: author
+      label: author
+    - type: text
+      name: image
+      label: image
+    - type: text
+      name: datePublished
+      label: datePublished
+    - type: field_group
+      name: publisher
+      label: publisher
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: file
+        name: url
+        label: url
+    - type: text
+      name: mainEntityOfPage
+      label: mainEntityOfPage
+- type: field_group
+  name: services
+  label: services
+  fields:
+  - type: field_group
+    name: slide_web
+    label: slide_web
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: description
+      label: description
+  - type: field_group
+    name: slide_mobile
+    label: slide_mobile
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: description
+      label: description
+  - type: field_group
+    name: slide_rails
+    label: slide_rails
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: description
+      label: description
+  - type: field_group
+    name: slide_react
+    label: slide_react
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: description
+      label: description
+- type: field_group
+  name: socials
+  label: socials
+  fields:
+  - type: field_group
+    name: facebook
+    label: facebook
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: twitter
+    label: twitter
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: linkedin
+    label: linkedin
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: github
+    label: github
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: jtway
+    label: jtway
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: logos
+    label: logos
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: use_cases
+  label: use_cases
+  fields:
+  - type: field_group
+    name: agent_inbox
+    label: agent_inbox
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: scope
+      label: scope
+    - type: text
+      name: desc
+      label: desc
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: open_apply
+    label: open_apply
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: scope
+      label: scope
+    - type: text
+      name: desc
+      label: desc
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: mobile_coach
+    label: mobile_coach
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: scope
+      label: scope
+    - type: text
+      name: desc
+      label: desc
+    - type: text
+      name: url
+      label: url
