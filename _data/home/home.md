@@ -4,7 +4,7 @@ main_screen_posts:
     title: Test title
     url: https://jtway.co/the-4-steps-to-bringing-life-to-a-struggling-project-37a53bf9c7dc
     author: Paul Keen
-    image: ''
+    image: _assets/images/logo_500.png
     datePublished: ''
     publisher:
       name: ''
