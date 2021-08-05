@@ -9,6 +9,7 @@ fields:
   - type: text
     name: title
     label: title
+    description: fefefrewre
   - type: text
     name: scope
     label: scope
