@@ -1,0 +1,44 @@
+---
+label: test_template
+hide_body: true
+fields:
+- type: field_group
+  name: slide_web
+  label: slide_web
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+- type: field_group
+  name: slide_mobile
+  label: slide_mobile
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+- type: field_group
+  name: slide_rails
+  label: slide_rails
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+- type: field_group
+  name: slide_react
+  label: slide_react
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
