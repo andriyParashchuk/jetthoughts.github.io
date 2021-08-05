@@ -52,3 +52,5 @@ fields:
       required: false
     label: field
   label: test_field
+pages:
+- _data/new_page.html
