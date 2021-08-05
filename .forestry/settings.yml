@@ -7,6 +7,12 @@ sections:
 - type: document
   path: '_data/customers'
   label: Customers
+- path: _data
+  label: Page one
+  create: all
+- path: _includes
+  label: Page two
+  create: all
 upload_dir: _assets/images
 public_path: "_assets/images"
 front_matter_path: ''
