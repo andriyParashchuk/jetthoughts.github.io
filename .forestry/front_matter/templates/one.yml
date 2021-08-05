@@ -62,5 +62,15 @@ fields:
       required: false
     label: fdfdfd
   label: fdfd
+- name: '23232'
+  type: field_group
+  config: {}
+  fields:
+  - name: ds
+    type: text
+    config:
+      required: false
+    label: ds
+  label: '23232'
 pages:
 - _data/edfd.md
