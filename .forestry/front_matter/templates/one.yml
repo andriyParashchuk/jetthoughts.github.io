@@ -52,5 +52,15 @@ fields:
   - type: text
     name: url
     label: url
+- name: fdfd
+  type: field_group
+  config: {}
+  fields:
+  - name: fdfdfd
+    type: text
+    config:
+      required: false
+    label: fdfdfd
+  label: fdfd
 pages:
 - _data/edfd.md
