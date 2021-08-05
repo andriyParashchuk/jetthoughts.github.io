@@ -1,6 +1,3 @@
----
-'23232':
-  ds: ''
 facebook:
   title: Facebook
   url: https://www.facebook.com/jetthoughts/
@@ -19,20 +16,3 @@ jtway:
 logos:
   title: Brand assets
   url: "/logos"
-agent_inbox:
-  title: ''
-  scope: ''
-  desc: ''
-  url: ''
-open_apply:
-  scope: ''
-  desc: ''
-  url: ''
-  title: ''
-mobile_coach:
-  title: ''
-  scope: ''
-  desc: ''
-  url: ''
-fdfd:
-  fdfdfd: ''

@@ -4,19 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: _data/customers
-  label: Customers
 - type: directory
-  path: _data
-  label: Page one
+  path: _data/home
+  label: Home page
   create: all
-  match: "**/*"
-- type: directory
-  path: _includes
-  label: Page two
-  create: all
-  match: "**/*"
 upload_dir: _assets/images
 public_path: _assets/images
 front_matter_path: ''
