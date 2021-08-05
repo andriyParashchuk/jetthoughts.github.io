@@ -4,7 +4,7 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-  - type: document
+- type: document
   path: '_data/customers'
   label: Customers
 upload_dir: _assets/images
