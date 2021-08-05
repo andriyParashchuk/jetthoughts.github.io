@@ -7,7 +7,7 @@ sections:
 - type: document
   path: '_data/customers'
   label: Customers
-- path: _data/customers
+- path: _data
   label: Page one
   create: all
 - path: _includes
