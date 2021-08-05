@@ -4,11 +4,9 @@ auto_deploy: false
 admin_path:
 webhook_url:
 sections:
-  - type: directory
+  - type: document
   path: '_data/customers'
   label: Customers
-  create: documents
-  match: "*"
 upload_dir: _assets/images
 public_path: "_assets/images"
 front_matter_path: ''
