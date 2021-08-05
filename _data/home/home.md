@@ -30,6 +30,9 @@ main_screen_posts:
       name: ''
       url: ''
     mainEntityOfPage: ''
+  post_4:
+    title: test title_4
+    url: http://someur.com
 posts:
   post_1:
     title: ''
