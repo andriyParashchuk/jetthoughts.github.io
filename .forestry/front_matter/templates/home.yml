@@ -13,6 +13,7 @@ fields:
     - type: text
       name: title
       label: title
+      description: ok
     - type: text
       name: url
       label: url
