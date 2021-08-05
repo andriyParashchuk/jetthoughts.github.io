@@ -1,0 +1,52 @@
+---
+label: one
+hide_body: true
+fields:
+- type: field_group
+  name: agent_inbox
+  label: agent_inbox
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: scope
+    label: scope
+  - type: text
+    name: desc
+    label: desc
+  - type: text
+    name: url
+    label: url
+- type: field_group
+  name: open_apply
+  label: open_apply
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: scope
+    label: scope
+  - type: text
+    name: desc
+    label: desc
+  - type: text
+    name: url
+    label: url
+- type: field_group
+  name: mobile_coach
+  label: mobile_coach
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: scope
+    label: scope
+  - type: text
+    name: desc
+    label: desc
+  - type: text
+    name: url
+    label: url

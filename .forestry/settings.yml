@@ -5,16 +5,20 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: '_data/customers'
+  path: _data/customers
   label: Customers
-- path: _data
+- type: directory
+  path: _data
   label: Page one
   create: all
-- path: _includes
+  match: "**/*"
+- type: directory
+  path: _includes
   label: Page two
   create: all
+  match: "**/*"
 upload_dir: _assets/images
-public_path: "_assets/images"
+public_path: _assets/images
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
