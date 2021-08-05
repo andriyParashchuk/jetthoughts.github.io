@@ -102,6 +102,21 @@ fields:
     - type: text
       name: mainEntityOfPage
       label: mainEntityOfPage
+  - name: post_4
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: title
+    - name: url
+      type: text
+      config:
+        required: false
+      label: url
+    label: post_4
 - type: field_group
   name: posts
   label: posts
