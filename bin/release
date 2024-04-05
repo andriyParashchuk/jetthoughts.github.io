@@ -1,6 +1,0 @@
-#!/bin/sh
-
-echo "== Building and Deploying on $1 =="
-
-JEKYLL_ENV=production bundle exec jekyll build
-surge -p ./_site -d $1

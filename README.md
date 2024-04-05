@@ -1,55 +1,47 @@
-# jetthoughts
+# Install
 
-- [How to install](#how-to-install)
-- [How to use](#how-to-use)
-- [How to contribute](#how-to-contribute)
-- [Optimize assets](doc/optimize_assets.md)
-- [Check performance and SEO](doc/check_performance_and_seo.md)
+1. Change config.toml file acording to your settings
+2. Change Google forms
 
-## How to install
+## About
 
-1. Clone project into your computer
+This is ported version of beaver builder wordpress website, that's why it has different css, js for every page.
 
-1. Open project root directory
+Requirement was to port design exactly as is and I'm not very good at css, so here we go. That's why it has qudrillion of files from wordpress. Some of them are not needed.
+After moving to more sane theme hopefully they will be deleted.
 
-1. Install project dependencies
+## Google forms
 
-    ```bash
-    bin/setup
-    ```
+In `config.toml` change google forms input names and action
 
-## How to use
+## Google Forms Notification
 
-1. To run jekyll server
+You need to install and configure addon
+<https://www.youtube.com/watch?v=FvZ2tM0m7AY>
 
-    ```bash
-    bin/server
-    ```
+## Pages
 
-## How to contribute
+In this theme there 3 different types
 
-1. Choose issue from the board
+1. Simple page type (privacy policy)
+2. Custom page layout for `/clients/`, `/use-cases/`, `/carreers/`, `/services/` homepage, about.
+3. Custom page types for single client, use-case, career, service.
 
-1. Create new branch for this issue
+## Data
 
-    `git checkout -b #[issue-number]-issue-name`
+`companies` are get from `data/companies.yaml` file
+Technologies could be taken from `data/technologies.yaml` but beaver wordpress has custom layout (probably manullay created), so you can't just dump them as is because design will be different. After moving to sane theme feel free to use `data/technologies.yaml` for it. Look how companies are used and make similar.
 
-1. Write a good commit message based on http://chris.beams.io/posts/git-commit/ with some requirements:
+## Adding new client/career/page/services
 
-        #[issue-number]: Capitalized, short (50 chars or less) summary
+### Method 1
 
-        More detailed explanatory ...
+Go to `content/clients` and copy folder then rename it and change content and images accordingly
 
-1. Convert an existing issue into a pull request: `hub pull-request -i [issue-number]`
+### Method 2
 
-## Source media files are in folder:
-- src/fonts
-- src/images
-- src/video
-- src/favicon
+Using cli `hugo new content clients/new-client/index.md`
 
-## Mockups are in:
-- [Google Drive](https://drive.google.com/drive/u/1/folders/1yVjuYSwctYQmBLw7YHrWmHIPHVq70ox7)
-- [Figma.com](https://www.figma.com/file/wmRuaLaG0wwnOE9kBWfnMn/Jetthoughts-2?node-id=1%3A2)
-- [Invision](https://projects.invisionapp.com/share/EABU3IP46#/screens)
-- [Vimeo](https://vimeo.com/218007444)
+#### Note from developer
+
+Beaver builder and nitro created a lot of css and js files. Also, it created css in the page, js in the page and every page has different css, js files. That's why I'm using awkward if else in header partial, footer partial instead of using baseof (don't want to complicate the code more, so custom css js will be in header and footer instead of adding them in each page layout).

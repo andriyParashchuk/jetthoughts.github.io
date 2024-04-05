@@ -1,3 +1,0 @@
-#!/bin/sh
-
-yarn surge -p ./_site -d ${SITE_URL:-jetthoughts.surge.sh} $@
